@@ -2,12 +2,19 @@
 A chatbot that can reply when someone calling you by your name. And instant reply in your google meet chat box. It is a simple automation with python.
 
 # Step 1
+Install python:
+https://youtu.be/Ebh157e3FkQ
+Set up python Path in Windows :
+https://youtu.be/4V14G5_CNGg
+
 Enable Stereo Mix on Windows. 
 Tutorial: https://youtu.be/65eh7P_kIAI
 If you are using mac or linux just google it how to enable  Stereo Mix  and fix this .
 
 Install vs code
 https://code.visualstudio.com/
+Tutorial:
+https://youtu.be/PhHURrkAJlE
 # Step 2
 Download or git clone the code. Extract the zip file. Then open the folder and open cmd or terminal.
 
