@@ -49,19 +49,21 @@ try:
             filename = WAVE_OUTPUT_FILENAME
             r = sr.Recognizer()
             with sr.AudioFile(filename) as source:
-                # listen for the data (load audio to memory)
+          
                 audio_data = r.record(source)
-                # recognize (convert from speech to text)
+                
                 text = r.recognize_google(audio_data)
                 print(text)
             os.remove(WAVE_OUTPUT_FILENAME)
             get_text=text.split()
             #In target_text give bunch of your name in different way 
             target_text=["Alex","alex.","ALEX.","Alex?","Alex.","l x","lx","L X""Lx","Lx.","lx."]
-            output = ["hmm","internet slow","yes","yes sir","Sir I can't hare you","sir can you repeat again","internet is very slow","hmmm"]
+            #output=[ "what response you want"]
+            output = ["hmm","internet slow","yes","yes sir","Sir I can't hear you","sir can you repeat again","internet is very slow","hmmm"]
             choice=random.choice(output)
             for target in get_text:
                 if target in target_text:
+                    
                     pyautogui.click(x=400, y=600)
                     #remove ")#" for slow typing
                     pyautogui.write(choice)#, interval=0.25) 
