@@ -1,5 +1,6 @@
 # googlemeetbot
 A chatbot that can reply when someone calling you by your name. And instant reply in your google meet chat box. It is a simple automation with python.
+In online class when someone  calling you by your name the bot instant reply with the given answers.This bot help you when you are doing something else not attending the class , this bot may help you to not get  a  punish from your teacher .
 
 # Step 1
 Install python:
