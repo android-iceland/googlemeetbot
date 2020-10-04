@@ -12,33 +12,38 @@ Download or git clone the code. Extract the zip file. Then open the folder and o
 # step 3
 If you are using windows run: <br>
 ```
-pip install -r requirements.txt <br>
+pip install -r requirements.txt 
 ```
 ```
 pipwin install PyAudio==0.2.11
 ```
 
-If you are using mac or linux run:<br><br>
+If you are using mac or linux run:<br>
 ```
-pip3 install -r requirements.txt<br>
+pip3 install -r requirements.txt
 ```
 ```
 pipwin install PyAudio==0.2.11
 ```
 
 # step 4:
-Then run chatbox_position.py  to find your Google Meet chat box position and notedown the position.
+Then run ```chatbox_position.py ``` to find your Google Meet chat box position and notedown the position.
 
 # step 5
-open gmeet.py in a text editor .<br>
-Find ```pyautogui.click(x=400, y=600)```. replace x,y with your chat box position.<br>
+open ```gmeet.py``` in a text editor .<br>
+Find 
+```pyautogui.click(x=400, y=600)```
+Replace x,y with your chat box position.<br>
 
-Find ```target_text=["Alex","alex.","ALEX.","Alex?","Alex."] ```.<br>
+Find 
+```target_text=["Alex","alex.","ALEX.","Alex?","Alex."] ```
+<br>
 Just replace the different names with your name. Also give your name in different way something like me.<br>
-If you want to add more your name just write a coma and give quataion and add the name (,"alexx").<br>
+If you want to add more your name just write a coma and give quataion and add the name (```,"alexx"```).<br>
 
-Find ``` output = ["hmm","internet slow","yes","yes sir","Sir I can't hear you","sir can you repeat again","internet is very slow","hmmm"]```<br>
-replace the response with your response.
+Find 
+``` output = ["hmm","internet slow","yes","yes sir","Sir I can't hear you","sir can you repeat again","internet is very slow","hmmm"]```<br>
+Replace the response with your response.
 
 # step 6
 Run gmeet.py 
