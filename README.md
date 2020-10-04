@@ -3,9 +3,11 @@ A chatbot that can reply when someone calling you by your name. And instant repl
 
 # Step 1
 Install python:
-https://youtu.be/Ebh157e3FkQ
+https://youtu.be/Ebh157e3FkQ  <br>
 Set up python Path in Windows :
-https://youtu.be/4V14G5_CNGg
+https://youtu.be/4V14G5_CNGg    <br>
+Install pip:
+https://phoenixnap.com/kb/install-pip-windows  <br>
 
 Enable Stereo Mix on Windows. 
 Tutorial: https://youtu.be/65eh7P_kIAI
