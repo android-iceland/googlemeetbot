@@ -6,6 +6,8 @@ Enable Stereo Mix on Windows.
 Tutorial: https://youtu.be/65eh7P_kIAI
 If you are using mac or linux just google it how to enable  Stereo Mix  and fix this .
 
+Install vs code
+https://code.visualstudio.com/
 # Step 2
 Download or git clone the code. Extract the zip file. Then open the folder and open cmd or terminal.
 
