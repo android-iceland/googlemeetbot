@@ -1,3 +1,4 @@
+#author:android-iceland
 import pyaudio
 import wave
 import os 
